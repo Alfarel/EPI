@@ -79,8 +79,8 @@ if(isset($_SESSION['USUARIO']) and $_SESSION['ESTADO'] == 'Autenticado')
 				<div id="Busquedas_comunes">
 					<h3>Nueva Entrevista</h3>
 					<ul class="listaBusqueda">
-						<li class="listaBusqueda"><a href="#"><div id="#">Guia para Estudiantes</div></a></li>
-						<li class="listaBusqueda"><a href="#"><div id="#">Guia para Docentes</div></a></li>
+						<li class="listaBusqueda" id="nuevoEst"><a href="#"><div id="#">Guia para Estudiantes</div></a></li>
+						<li class="listaBusqueda" id="nuevoDoc"><a href="#"><div id="#">Guia para Docentes</div></a></li>
 					</ul>	
 					<h3>B&uacute;squeda comunes</h3>
 					<ul class="listaBusqueda">
